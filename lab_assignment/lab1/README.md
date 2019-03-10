@@ -38,7 +38,7 @@ All assignment is divided into the same three functions.
 
 Classification           | Meaning
 --------       | ---
-Test Function      | A function to execute the assignment. A sentence `Modify codes below` is written in the function. **You can edit this function.** 
+Test Function      | A function to execute the assignment. A sentence `Modify codes below` is written in the function.<br /> **You can edit this function.** 
 Helper Function   | A function written by the examiner for helping the assignment. <br />**Do not edit**. It may be impossible to submit your assignment if you edit it. 
 Main function       | It is a code for assessing your code which is on the bottom of the template. It is written in `def main():`. Main Function describes properly written code's execution result. 
 
