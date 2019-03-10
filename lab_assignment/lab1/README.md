@@ -2,44 +2,58 @@
 Copyright 2019 © document created by teamLab.gachon@gmail.com
 
 ## Introduction
-In K-MOOC Python and Gachon CS50, all assignment will be submitted using Gachon Autograder made by TeamLab. In this lab, we are going to practice the process of submitting assignment using the autograder system. As we did not learn Python in details yet, we are going to write very simple codes for four fundamental arithmetic operations.
+In K-MOOC Python and Gachon CS50, all assignment will be submitted using Gachon Autograder made by TeamLab. In this lab, we are going to practice the process of submitting assignment using the Autograder system. As we did not learn Python in details yet, we are going to write very simple, four fundamental arithmetic operation codes.
 
 ## Download lab_1.zip for Lab Assignment
-The first thing we need to do is to download a zip file called "lab_1.zip" for our assignment. Please enter the address below on your web browser such as Chrome or Explorer.  
+What we going to do firstly is to download a zip file called "lab_1.zip" for our assignment.
+Please enter below address on your web browser such as Chrome or Explorer.  
 
 ~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1~~
 
-Click `View Raw`  or  `Download` button to download. Or click the below download link to be download automatically. [Lab 1 - Download](~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_1/lab_1.zip~~)
+Click `View Raw`  or  `Download` button to download. Or click the below download link to be download automatically. [Lab 1 - Download](~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_1/lab_1.zip~~).
 
-Usually the files are downloaded in the user folder called “Download”
+Usually the files are downloaded in the folder called “Download”. 
 
-Click <kbd>windows</kbd><sup id="windows"></sup>+<kbd>e</kbd> and you can see the “Download” folder on the upper left corner. In the “Download” folder, click the `lab_1.zip` file to move to the working folder and start working after unzipping the downloaded `lab_1.zip` file
+Press  <kbd>windows</kbd><sup id="windows"></sup>+<kbd>e</kbd> . You can see the “Download” folder on the upper left corner. Move `lab_1.zip` file to your working directory and unzip. Then, start your lab.
 
 
 
 ## See the contents of arithmetic_function.py
-For the next step, let’s see the structure of unzipped `arithmetic_function.py` file. In order to see the structure, we need to open it using atom as below.
-1. Click <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and enter ‘cmd' for a black console window.
-2. Use `cd workspace` to change your directory to the working folder.
-3. The zip assignment file should be already unzipped in the working folder.
-4. Execute atom using the command `atom .` and open the file by clicking `arithmetic_function.py` on the left top menu tree.
-5. If it is complicate, please watch the introduction video again.
+Let’s start with figure out   `arithmetic_function.py` file's structure. 
+To see the structure, we need to open `.py` file (which is python script file) using atom (the editor) as below process.
+
+1. Press <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and  type ‘cmd' . You will see black window called `console` or `terminal`.
+
+2. Type command  `cd **directory_name**` to change your directory to the working folder. Lab assignment files should be unzipped in the working folder.
+
+   *Note: `cd ..` is way to back (to parent directory), and `dir`will show what's in your directory. If you saved in D drive, `d:` let you access.
+
+3. Execute atom using the command `atom .` and open the file by clicking `arithmetic_function.py` on the left top menu tree.
+
+4. If it is complicate, watch the introduction video again.
+
+   
 
 All assignment is divided into the same three functions.
 
 Classification           | Meaning
 --------       | ---
-test function      | A function to execute the assignment. A sentence `Modify codes below` is written in the function and the user can edit.
-helper function   | A function which is written by the examiner for helping the assignment. Do not need to edit and it would be impossible to submit your assignment if you edit it.
-main function       | It is a code for assignment test which is on the bottom of the template and it is written in `def main():`. This code describes the execution result in detail if it is correctly written.
+Test Function      | A function to execute the assignment. A sentence `Modify codes below` is written in the function. **You can edit this function.** 
+Helper Function   | A function written by the examiner for helping the assignment. <br />**Do not edit**. It may be impossible to submit your assignment if you edit it. 
+Main function       | It is a code for assessing your code which is on the bottom of the template. It is written in `def main():`. Main Function describes properly written code's execution result. 
 
-The `arithmetic_function.py` function consists of 4 types of test functions and one main function.  
 
-- addition(a, b) – Return the sum of a and b when those two numbers are entered.
-- minus(a, b) – Return the value of a minus b when those two numbers are entered.
-- multiplication(a, b) – Return the value of multiplying a and b when those two numbers are entered.
-- division(a, b) – Return the value of a divided by b when those two numbers are entered.
-The addition function is written as below. addition
+
+The functions in `arithmetic_function.py` file consists of 4 test functions and one main function.  
+
+- `def addition(a, b):` – Return the sum of a and b when those two numbers(a, b) are entered.
+- `def minus(a, b):` – Return the value of a minus b when those two numbers (a, b) are entered.
+- `def multiplication(a, b):` – Return the value of multiplying a and b when those two numbers are entered.
+- `def division(a, b):` – Return the value of a divided by b when those two numbers are entered.
+
+
+
+The addition function is written as below. 
 
 ```python
 def addition(a, b):
@@ -63,15 +77,13 @@ def addition(a, b):
     # ==================================
 
     return result
-```   
+```
 
-The above part of `# ===Modify codes below=============` in this function is the description of the function.
+The above part of `# ===Modify codes below=============` describes about the function. 
 
-The `# Input:` part describes the type of value in this function and `# Output:` part describes the result value of the function. The most important part is `# Examples:`.
+`# Input:` part describes the type of value in this function and `# Output:` part describes expected result.  You can reference `# Examples:`, describes the result value displayed in execution. In order to verify it, execute Python shell.
 
-The bottom part describes the result value which can be displayed in execution. In order to verify it, we need to execute Python shell.
 
-Python shell means the programming environment which can be seen when typing `python`. Please enter the below code written after`>>>`
 
 ```bash
 C:\<working directory\lab_1> python
@@ -82,16 +94,22 @@ Type "help", "copyright", "credits" or "license" for more information.
 None
 ```
 
-The first `import` statement is a command to call the written program. The name of the program, we have made, is "arithmetic_function.py" and please enter the name without `.py` which is the file extension.
+Python shell means the programming environment which can be seen when typing `python` on your console (cmd). Test example codes follow after`>>>`.
 
-`as af` attached on the last part means that we will call `arithmetic_function` as `af`. The second code means that we will call the function of `addition` in the  `arithmetic_function` code.
+The first `import` command calls the written program. The name of the program, we have made, is "arithmetic_function.py" . Please enter the file name without file extension (`.py`) .
 
-The corresponding function needs to receive the values for a and b and in this case, a and b will be 10 and 5 respectively. In other words, the result value of `result = af.addition(10,5)` function will be saved as a variable called `result`.
+`as af` in command is alias. It means  : we will call `arithmetic_function` program, and we will call that  as `af`. The second command call the function `addition` in the  `arithmetic_function` file.
 
-The last code means to print the result of `result`. As we did not edit the code yet, the current value is `None`.
+The corresponding function must be already coded in file to receive the values. In this case, `a` and `b` in coded file are 10 and 5 respectively. The returned value of `af.addition(10,5)` function will be saved  in variable `result`, stated on left. 
+
+The last code means to print variable  `result`. As we did not edit the code yet, Current value is must be `None` because `def addition():` in `arithmetic_function.py`, it returned `None`.
+
+
 
 ## Edit arithmetic_function.py
-The students need to edit the below code. As the object of this function is to add entered two values, change `result = None` to `result = a+b`. Please edit `result = None` of other functions in the same way according to their purposes.
+The students need to edit the below code. As the object of this function is to sum entered two values. Change `result = None` to `result = a+b`. 
+
+Please edit `result = None` of other functions in the same way according to their purposes.
 
 ```python
    # ===Modify codes below=============
@@ -101,18 +119,18 @@ The students need to edit the below code. As the object of this function is to a
     # ==================================
 ```
 ##### In order to verify whether it is correctly edited, execute the edited program.
-1. Click <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and click O.K after entering cmd.
+1. Run Console : Press <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and  enter `cmd` on it.
 2. Change the directory to the previous working folder.
 3. Enter `python arithmetic_function.py`.
 
-The executing code is the below code which is in the `main()` function.
+Codes in `main()` function will executed.
 
-The `print` statement is a command to print the values between parenthesis. The below code prints a phrase `Addition Test` first and will print the result of `addition(3,5)` for the next.
-Each expectation value for print is written in a comment <sup id="comment"></sup> besides the symbol
+The `print` statement command to print the values between parenthesis. Below code will prints a phrase `Addition Test`first, then print the result of `addition(3,5)` for the next.
+Each expectation value for print is written in the comment follows after <sup id="comment"></sup>  symbol
 `#`.
 
-Verify whether the result values when executing the edited program for the assignment are the same as the expectation values which are commented in the `main()` function.
-As the `main()` function do not affect the submission of assignment `main()`, you can edit it freely if you want to.  
+Verify whether the executing result values of edited program for the assignment are the same as the expectation values which are commented in the `main()` function.
+As the `main()` function do not affect the Autograder submission of assignment `main()`, you can edit it freely if you want to.  
 
 ```python
 def main():
@@ -143,14 +161,17 @@ def main():
 ```
 
 ## Assignment template file submission
-1. Click <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and click O.K after entering cmd on it.
+
+If you properly tested and ready to submit your assignment, follow below directions.
+
+1. Run Console : Press <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and  enter 'cmd'  on it.
 2. Change the directory to the previous working folder.
-3. Enter bash as below.
+3. Command as below.
 ```bash
 python submit.py
 ```
 
-When entering the above command, you will be asked of your Login ID and Password. Use the Login ID and Password used for the registering http://theteamlab.io  website for entering.
+When enter the above command, you will be asked your Login ID and Password. Use the Login ID and Password used for the registering http://theteamlab.io  website.
 
 ```bash
 == Submmting solutions | arithmetic_function.py
@@ -173,5 +194,5 @@ If there are no grammar errors on executing the command, you will receive a mess
 
 
 ## Next Work
-Congratulation for finishing the firs Lab Assignment. I know you are tired of doing tasks. However, we still have a lot of interesting Lab Assignment. You can do it, trust me.
+Congratulation for finishing the first Lab Assignment. I know you are tired of doing tasks. However, we still have a lot of interesting Lab Assignment. You can do it, trust me.
 > **Human knowledge belongs to the world** - from movie 'Password' -
