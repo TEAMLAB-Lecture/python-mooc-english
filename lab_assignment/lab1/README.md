@@ -10,24 +10,29 @@ Please enter below address on your web browser such as Chrome or Explorer.
 
 ~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1~~
 
-Click `View Raw`  or  `Download` button to download. Or click the below download link to be download automatically. [Lab 1 - Download](~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_1/lab_1.zip~~)
+Click `View Raw`  or  `Download` button to download. Or click the below download link to be download automatically. [Lab 1 - Download](~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_1/lab_1.zip~~).
 
-Usually the files are downloaded in the folder called “Download” 
+Usually the files are downloaded in the folder called “Download”. 
 
-Press <kbd>windows</kbd><sup id="windows"></sup>+<kbd>e</kbd> and you can see the “Download” folder on the upper left corner. In the “Download” folder, click the `lab_1.zip` file to move to your working directory and unzip. Then, start your lab.
+Press  <kbd>windows</kbd><sup id="windows"></sup>+<kbd>e</kbd> . You can see the “Download” folder on the upper left corner. Move `lab_1.zip` file to your working directory and unzip. Then, start your lab.
 
 
 
 ## See the contents of arithmetic_function.py
 Let’s start with figure out   `arithmetic_function.py` file's structure. 
-To see the structure, we need to open `.py`file (which is python script file) using atom (the editor) as below process.
+To see the structure, we need to open `.py` file (which is python script file) using atom (the editor) as below process.
 
-1. Press <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and  type ‘cmd' . You will see black window we called `console` or `terminal`.
-2. Type command  `cd **directory_name**` to change your directory to the working folder. 
-   *Note: `cd ..` is way to back, and `dir`will show what's in your directory
-3. Lab assignment files should be unzipped in the working folder.
-4. Execute atom using the command `atom .` and open the file by clicking `arithmetic_function.py` on the left top menu tree.
-5. If it is complicate, please watch the introduction video again.
+1. Press <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and  type ‘cmd' . You will see black window called `console` or `terminal`.
+
+2. Type command  `cd **directory_name**` to change your directory to the working folder. Lab assignment files should be unzipped in the working folder.
+
+   *Note: `cd ..` is way to back (to parent directory), and `dir`will show what's in your directory. If you saved in D drive, `d:` let you access.
+
+3. Execute atom using the command `atom .` and open the file by clicking `arithmetic_function.py` on the left top menu tree.
+
+4. If it is complicate, watch the introduction video again.
+
+   
 
 All assignment is divided into the same three functions.
 
@@ -37,12 +42,16 @@ Test Function      | A function to execute the assignment. A sentence `Modify co
 Helper Function   | A function written by the examiner for helping the assignment. <br />**Do not edit**. It may be impossible to submit your assignment if you edit it. 
 Main function       | It is a code for assessing your code which is on the bottom of the template. It is written in `def main():`. Main Function describes properly written code's execution result. 
 
-The functions in `arithmetic_function.py` file  consists of 4 test functions and one main function.  
+
+
+The functions in `arithmetic_function.py` file consists of 4 test functions and one main function.  
 
 - `def addition(a, b):` – Return the sum of a and b when those two numbers(a, b) are entered.
 - `def minus(a, b):` – Return the value of a minus b when those two numbers (a, b) are entered.
 - `def multiplication(a, b):` – Return the value of multiplying a and b when those two numbers are entered.
 - `def division(a, b):` – Return the value of a divided by b when those two numbers are entered.
+
+
 
 The addition function is written as below. 
 
@@ -70,11 +79,11 @@ def addition(a, b):
     return result
 ```
 
-The above part of `# ===Modify codes below=============` describes about the function.
+The above part of `# ===Modify codes below=============` describes about the function. 
 
-The `# Input:` part describes the type of value in this function and `# Output:` part describes expected result.  You can reference `# Examples:`, describes the result value displayed in execution. In order to verify it, execute Python shell.
+`# Input:` part describes the type of value in this function and `# Output:` part describes expected result.  You can reference `# Examples:`, describes the result value displayed in execution. In order to verify it, execute Python shell.
 
-Python shell means the programming environment which can be seen when typing `python` on your console (cmd). Test example codes follow after`>>>`.
+
 
 ```bash
 C:\<working directory\lab_1> python
@@ -85,13 +94,17 @@ Type "help", "copyright", "credits" or "license" for more information.
 None
 ```
 
+Python shell means the programming environment which can be seen when typing `python` on your console (cmd). Test example codes follow after`>>>`.
+
 The first `import` command calls the written program. The name of the program, we have made, is "arithmetic_function.py" . Please enter the file name without file extension (`.py`) .
 
 `as af` in command is alias. It means  : we will call `arithmetic_function` program, and we will call that  as `af`. The second command call the function `addition` in the  `arithmetic_function` file.
 
-The corresponding function must be already coded in file to receive the values. In this case, a and b in coded file are 10 and 5 respectively. The returned value of `af.addition(10,5)` function will be saved  in variable `result`, stated on left. 
+The corresponding function must be already coded in file to receive the values. In this case, `a` and `b` in coded file are 10 and 5 respectively. The returned value of `af.addition(10,5)` function will be saved  in variable `result`, stated on left. 
 
-The last code means to print variable  `result`. As we did not edit the code yet, Current value is must be `None` because we returned `None` in `def addition():` in `arithmetic_function.py`.
+The last code means to print variable  `result`. As we did not edit the code yet, Current value is must be `None` because `def addition():` in `arithmetic_function.py`, it returned `None`.
+
+
 
 ## Edit arithmetic_function.py
 The students need to edit the below code. As the object of this function is to sum entered two values. Change `result = None` to `result = a+b`. 
@@ -101,7 +114,7 @@ Please edit `result = None` of other functions in the same way according to thei
 ```python
    # ===Modify codes below=============
 
-    result = a + b
+    result = None
 
     # ==================================
 ```
@@ -110,14 +123,14 @@ Please edit `result = None` of other functions in the same way according to thei
 2. Change the directory to the previous working folder.
 3. Enter `python arithmetic_function.py`.
 
-The executing code is the below code which is in the `main()` function.
+Codes in `main()` function will executed.
 
-The `print` statement is a command to print the values between parenthesis. The below code prints a phrase `Addition Test` first and will print the result of `addition(3,5)` for the next.
-Each expectation value for print is written in a comment <sup id="comment"></sup> besides the symbol
+The `print` statement command to print the values between parenthesis. Below code will prints a phrase `Addition Test`first, then print the result of `addition(3,5)` for the next.
+Each expectation value for print is written in the comment follows after <sup id="comment"></sup>  symbol
 `#`.
 
-Verify whether the result values when executing the edited program for the assignment are the same as the expectation values which are commented in the `main()` function.
-As the `main()` function do not affect the submission of assignment `main()`, you can edit it freely if you want to.  
+Verify whether the executing result values of edited program for the assignment are the same as the expectation values which are commented in the `main()` function.
+As the `main()` function do not affect the Autograder submission of assignment `main()`, you can edit it freely if you want to.  
 
 ```python
 def main():
