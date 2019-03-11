@@ -8,7 +8,7 @@ This is the fourth Lab Assignment. This lab guide is shorter and not descriptive
 First of all, you have to download the assignment template file. Please enter the below address on your Chrome or Explorer’s address bar.
 
 >
-https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip
+>https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip
 
 Click View Raw or Download button for downloading. Or click [Lab 4 – download link ](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/lab_4.zip) and it will start download automatically. Move the downloaded lab_4.zip file to work folder and start the assignment after unzip the file.
 
@@ -117,27 +117,26 @@ You may think that it is a simple function as it only displays the values. You j
 ## Edit main function
 The last thing to do is to complete the fahrenheit converter program by linking each function. In order to do it, we need to edit the `main()` function. The below of ` # ===Modify codes below=================` is the `main` function, write the code according to the instructions below.
 
-*** 여까지
+1. Call function `input_celsius_value()` and save the result value in variable `celsius_value` .
+2. Call `convert_celsius_fahrenheit()` function using variable `celsius_value` as parameter. Convert temperature and save the retuned value to variable `fahrenheit_value`.
+3. Call function`print_fahrenheit_value` using two variables  `celsius_value` and `fahrenheit_value`  as parameter. 
 
-1. Call the function of `input_celsius_value()` and save the result value in `celsius_value` variable.
-2. Call `convert_celsius_fahrenheit()` function by entering `celsius_value` to convert_celsius_fahrenheit function and save the result value to variable `fahrenheit_value`.
-3. Call print_fahrenheit_value function by entering celsius_value and fahrenheit_value to print_fahrenheit_value function.
-  It is very simple but it may be complicated as you are not accustomed of using the vocabulary. We can make functions but there are also a lot of functions provided by python such as `print` or `input`. We call those functions as built-in functions. See the code below.
+It is very simple but somewhat complicated as you are not accustomed with using those vocabulary. We can compose functions but there are a lot of functions provided by python such as `print` or `input`. We call those functions as built-in functions. See the code below.
 
 ```python
 abc = input("What's Your Name? ")
 print(abc)
 ```
-The above code can be described as below according to the writing instructions of `main` function.
+If we decribe above code as `main` function writing instruction style, it must be: 
 
 1. Call input function by entering "What's Your Name? " as the entering value for input function and save the result in abc variable.
 2. Call print function by entering abc in print function.
 
-If you have listened well in class, you would understand without difficulty. And use Slack if you have any questions.
+If you have listened well in class, you would understand without any difficulty. And use LINE if you have any questions.
 
 
 ## Print the result
-You can see the result as below by executing `python fahrenheit_converter.py` after completing your code. Well, the program can be implemented after completing all the necessary entering values by users.
+You can see the result by executing `python fahrenheit_converter.py` after completing your code. Of course, it is necessary to enter value by users.
 
 ```bash
 This program is a converter which converts Celsius to Fahrenheit.
@@ -159,7 +158,7 @@ All lab assignment has completed. Let’s submit the assignment.
 python submit.py
 ```
 
-After entering above command, you will see the screen as below with Login ID and Password. Enter Login ID and password which we used is registering http://theteamlab.io website.
+After entering above command, you will see the screen as below with Login ID and Password. Enter Login ID and password which we used for registering http://theteamlab.io website.
 
 
 ```python
@@ -167,7 +166,7 @@ After entering above command, you will see the screen as below with Login ID and
 Login ID:
 Password :
 ```
-Note. You can submit the lab assignment in any time you want. You will see the message as below if everything is completed correctly.
+Note. You can submit the lab assignment in any time you want. You will see the message as below if everything is composed correctly.
 
 ```bash
 -------------------- | ---------- | --------------------
@@ -180,7 +179,7 @@ convert_celsius_fahrenheit |       PASS |             Good Job
 -------------------- | ---------- | --------------------
 ```
 ## Next Work
-We have completed the lab_4. I want you to praise your own patience and enthusiasm and celebrate with a cool beer. This was the first time making a program by your own effort and not just editing or correcting. From now on, all assignment will be like this way, so you have to understand every detail and must complete the work yourself without any help.
+We have completed the lab_4. I want you to praise your own patience and enthusiasm and celebrate with a cool beer. This was the first time to compose a program by your own, and not just editing or correcting. From now on, all assignment will be suggested like this. You have to understand every detail and must complete the work yourself without any help well, except for Google.
 
 
 > **Human knowledge belongs to the world** - from movie 'Password' -
