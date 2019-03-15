@@ -4,7 +4,7 @@ Copyright 2019 © document created by TeamLab.Gachon@gmail.com
 Introduction
 ------------
 
-This assignment is a little short but not that simple. It is the first time you write a function by yourself. If you watch those functions in the future, you will know that those were simple. However, you will think that it is very complicate right now. It is too late to go back, so let’s start working.
+This Lab is short but not simple. It is the first time you write a function by yourself. If you look back those functions in the future, you will know that those were simple. However, you will think this is very complicate right now. It is too late to go back. Let’s start working.
 
 Assignment template file download
 ---------------------------
@@ -17,7 +17,7 @@ First of all, you have to download the assignment template file. Please enter th
 
 Click View Raw or Download button for downloading. Or click [Lab 3 – download link](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_3/lab_3.zip) and it will start download automatically. Move the downloaded lab_3.zip file to work folder and start the assignment after unzip the file.
 
-The `exam_grader.py` file will be downloaded. Right after receiving it, let’s execute the code once as a test. You can execute the code by entering `python exam_grader.py` on the cmd window and an error message will show up as below when you execute.
+Let’s execute the code before you edit as a test. You can execute the code by entering `python exam_grader.py` on the console and an error message will be shown as below.
 
 ```python
 Start of Exam Grader Program
@@ -32,11 +32,11 @@ Traceback (most recent call last):
 TypeError: 'NoneType' object cannot be interpreted as an integer
 ```
 
-Unlike the existing lab, this code is designed to work in consecutive order and not separately as before for achieving the final object. Let’s see the structure of the code.
+Unlike the existed lab, this lab is designed to work in consecutive order. Functions are not separated as before for achieving the final object. Let’s see the structure of the code.
 exam_grader.py code structure
 ------------------------
 
-For implementing this lab assignment, let’s see the `main` function first. The `main` function is formed as below. Do not forget that the below code can be checked in the `atom editor` and you can open it by moving to the corresponding directory and entering `atom exam_grader.py` command in ‘cmd’ or ‘terminal’.
+For implementing this lab assignment, let’s see the `main` function first. The `main` function is formed as below. Do not forget that the below code can be checked in the `atom editor` and you can open it by moving to the corresponding directory and entering `atom exam_grader.py` command in console or ‘terminal’.
 
 
 ```python
@@ -54,21 +54,19 @@ def main():
     print("End of Exame Grader Program")
 ```
 
-The first two and last two lines are `print` statement and those do not affect real execution of the program. We can see the first function to edit in .`number_of_subjects = get_number_of_subjects()` code. This code means to save the result value from `get_number_of_subjects` function to `number_of_subjects` variable. `get_number_of_subjects` helps to calculate `the total number of subjects` with the values entered by the user.
+The first and last two lines  are consist of `print` statement and those do not affect real execution of the program. We can see the first function to edit in : `number_of_subjects = get_number_of_subjects()`. This code means to save the result value returned from `get_number_of_subjects()` function to `number_of_subjects` variable. Function`get_number_of_subjects()` returns the total number of subjects as the values entered by the user.
 
-The next line `total_score = sum_of_scores(number_of_subjects)` is `helper function` which does not affect the actual assignment. This is a function which helps execution of the program in overall and it is designed to enter the score of subjects depending on the number of subjects. I recommend you check after finishing the assignment.
-
-
+The next line `total_score = sum_of_scores(number_of_subjects)` is `helper function` which does not affect on actual assignment. This is a function which helps execution of the program in overall. It is designed to enter the score of subjects depending on the number of subjects. I recommend you check after finishing the assignment.
 
 
-`average_score = get_average_score(total_score=total_score, number_of_subjects=number_of_subjects)` which is the next line is the most important code in this lab. This code assigns the average value of grades to `average_score` by entering variables called `total_score` and `number_of_subjects` in the function of `get_average_score`. The values of `number_of_subjects` are determined in the first code and `total_score` are determined in the second code respectively. There is no `get_average_score` in the downloaded `lab code`. Therefore, you must write it yourself.
+Statement`average_score = get_average_score(total_score=total_score, number_of_subjects=number_of_subjects)` is the most important code in this lab. This code assigns the average value of grades to `average_score` by entering variables called `total_score` and `number_of_subjects` in the function of `get_average_score`. The value of variable `number_of_subjects` is determined in the first code line  and variable`total_score` is determined in the second code respectively. There is no function `get_average_score()` in the downloaded `lab code`. Therefore, you must write it by yourself.
 
-Finally, `print_exam_grader(average_score)` is a code in function which displays the final average and grades on the screen based on the subject average score. It also can be applied to the `helper function` so you do not need to edit. However, I recommend you check it after submitting your assignment as it describes `if` statement for the next lesson.
+Finally, `print_exam_grader(average_score)` is the function which displays final average and grades on the screen based on the subject average score. It is `helper function` so you do not need to edit. However, I recommend you to check it after submitting your assignment as it describes `if` statement for the next lesson.
 
 get_number_of_subjects function edit
 ------------------------------------
 
-The first function to edit is `get_number_of_subjects`. The code of this function is the same as below.
+The first function to edit is `get_number_of_subjects()`. 
 
 ```python
 # receive all numbers of subjects using Console
@@ -94,7 +92,7 @@ def get_number_of_subjects():
 ```
 
 
-It looks complicate but the function itself is simple. When executing function without input, a message `Enter the number of subjects:` will be printed on the console for user input. When a user enters <strong>integer</strong>, it returns the value in integer type. It is a simple function. It is very easy to follow as we just 1) enter the values and 2) it converts to an integer number
+It looks complicate but the function itself is simple. When executing function, a message `Enter the number of subjects:` will be printed on the console for an user input. When the user enters <strong>integer</strong>, it returns the value in integer type. It is a simple function. It is very easy to follow : we just 1) enter the values and 2) it converted to an integer number.
 
 Create get_average_score function
 -------------------------------
@@ -104,16 +102,16 @@ This time, let’s write a function without any given template codes. The inform
 | contents       | composition                                                    |
 |------------|---------------------------------------------------------|
 | Name of function     | get_average_score                                       |
-| input variable (argument) | 1. total_score : total score in Integer Type |
-|            | 2. number_of_subjects : number of subjects in Integer Type |
-| output value (return)  | The value is total score in Float Type divided by number of subjects |
+| input variable (argument) | 1. total_score : total score, Integer Type |
+|            | 2. number_of_subjects : number of subjects, Integer Type |
+| output value (return)  | The value is total score divided by number of subjects in Float Type |
 
-I know you are worried about how to make a function with only this information but actually I gave you all the information. In actual development, the developer can decide name of functions or variations but I will not check your assignment if this is not following the rules. ~~Computer does not lie but it does not have flexibility either.~~
+I know you are worried about how to make a function with only this information. But I gave you all the information you need. In actual development, developer can decide name of functions or variations. However, in this assignment, I will not accept your assignment if you do not follow the naming rules. ~~Computer does not lie and it does not have flexibility either.~~
 
 Test and submission
 --------------
 
-If you have written all those two functions, let’s start executing. You can execute using `python exam_grader.py` command in `console`. If you have correctly written, you would see the result as below. `Enter the number of subjects:` in the third line will show up and the number `3` is written by the user himself and the below `85`,`95`,`100` are also need to be completed by the users.
+If you have written all those two functions, let’s start executing. You can execute using `python exam_grader.py` command in `console`. If you have correctly written, you would see the result as below. `Enter the number of subjects:` in the third line will show up and the number `3` is inputted by the user themselves and the below `85`,`95`,`100` are also required to inputted to calculate the grade.
 ```python
 Start of Exam Grader Program
 ============================
@@ -136,10 +134,10 @@ Now let’s submit the assignment.
 python submit.py
 ```
 
-After entering above command, you will see the screen as below with Login ID and Password. Enter Login ID and password which we used is registering http://theteamlab.io website.
+After entering above command, you will see the screen as below with Login ID and Password. Enter Login ID and password which you used it for registering http://theteamlab.io website.
 
 ```python
-== Submmting solutions | arithmetic_function.py
+== Submmting solutions | exam_grader.py
 Login ID:
 Password :
 ```
@@ -154,7 +152,7 @@ get_number_of_subjects |       PASS  |             Good Job
 ---------------------- | ----------- | --------------------
 ```
 
-This message usually appears when we write `get_average_score` with incorrect letters. Of course this may not be the problem. Anyway, re-check all the contents to find misspelled words and re-submit the assignment. You will see the message as below if everything is completed correctly.
+This message usually appears when we write `get_average_score` with incorrect letters. Of course this may not be the problem. Anyway, re-check all the contents to find misspelled words and re-submit the assignment. You will see the message as below if everything is good to go.
 ```python
 ---------------------- | ----------- | --------------------
        Function Name   |    Passed?  |             Feedback
@@ -167,6 +165,6 @@ get_number_of_subjects |       PASS  |             Good Job
 Next Work
 ---------
 
-As you felt today, there is no more kindness. You have to do everything yourself. You have to fight with all kinds of errors and should be challenging for more achievements. Find the causes of the errors and be comfortable with Google. Google research is your best friend and will help you to be the best programmer.
+As you felt today, there is no more kindness. You have to do everything by yourself. You have to fight with all kinds of errors and should be challenging for more achievements. Find the causes of the errors, be comfortable with Google. Google research is your best friend to be the best programmer.
 
 > **Human knowledge belongs to the world** - from movie 'Password' -
