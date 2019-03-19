@@ -6,7 +6,8 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 ## Course Information
 - Online Course
 - Class board: [LINE](https://line.me/ti/g2/2Blm-7OqnlcDICZgnI8Be0nx5Vc-oZBQMGs1W_b3EktyEn9HE3Gkc5GfItykgcr4), [Gachon Cyber Campus](http://cyber.gachon.ac.kr/course/view.php?id=46176)
-- TA Session - TBD
+- TA Session
+  - First TA Session, Mar 21, 5:30 pm, ROOM 503 at Engineearing Building  
 
 ## Announcement
 - (0319) - [Lab Assignemnt #1 and #2 for GBAT](http://theteamlab.io/lab/notice/32/)
