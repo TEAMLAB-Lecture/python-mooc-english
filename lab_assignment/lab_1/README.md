@@ -8,18 +8,18 @@ In K-MOOC Python and Gachon CS50, all assignment will be submitted using Gachon 
 What we going to do firstly is to download a zip file called "lab_1.zip" for our assignment.
 Please enter below address on your web browser such as Chrome or Explorer.  
 
-~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/tree/master/lab_assignment/lab_1~~
+https://github.com/TEAMLAB-Lecture/python-mooc-english/blob/master/lab_assignment/lab_1/lab_1.zip
 
-Click `View Raw`  or  `Download` button to download. Or click the below download link to be download automatically. [Lab 1 - Download](~~https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/raw/master/lab_assignment/lab_1/lab_1.zip~~).
+Click `View Raw`  or  `Download` button to download. Or click the below download link to be download automatically. [Lab 1 - Download](https://github.com/TEAMLAB-Lecture/python-mooc-english/raw/master/lab_assignment/lab_1/lab_1.zip).
 
-Usually the files are downloaded in the folder called “Download”. 
+Usually the files are downloaded in the folder called “Download”.
 
 Press  <kbd>windows</kbd><sup id="windows"></sup>+<kbd>e</kbd> . You can see the “Download” folder on the upper left corner. Move `lab_1.zip` file to your working directory and unzip. Then, start your lab.
 
 
 
 ## See the contents of arithmetic_function.py
-Let’s start with figure out   `arithmetic_function.py` file's structure. 
+Let’s start with figure out   `arithmetic_function.py` file's structure.
 To see the structure, we need to open `.py` file (which is python script file) using atom (the editor) as below process.
 
 1. Press <kbd>windows</kbd><sup id="windows"></sup>+<kbd>r</kbd> and  type ‘cmd' . You will see black window called `console` or `terminal`.
@@ -32,15 +32,15 @@ To see the structure, we need to open `.py` file (which is python script file) u
 
 4. If it is complicate, watch the introduction video again.
 
-   
+
 
 All assignment is divided into the same three functions.
 
 Classification           | Meaning
 --------       | ---
-Test Function      | A function to execute the assignment. A sentence `Modify codes below` is written in the function.<br /> **You can edit this function.** 
-Helper Function   | A function written by the examiner for helping the assignment. <br />**Do not edit**. It may be impossible to submit your assignment if you edit it. 
-Main function       | It is a code for assessing your code which is on the bottom of the template. It is written in `def main():`. Main Function describes properly written code's execution result. 
+Test Function      | A function to execute the assignment. A sentence `Modify codes below` is written in the function.<br /> **You can edit this function.**
+Helper Function   | A function written by the examiner for helping the assignment. <br />**Do not edit**. It may be impossible to submit your assignment if you edit it.
+Main function       | It is a code for assessing your code which is on the bottom of the template. It is written in `def main():`. Main Function describes properly written code's execution result.
 
 
 
@@ -53,7 +53,7 @@ The functions in `arithmetic_function.py` file consists of 4 test functions and 
 
 
 
-The addition function is written as below. 
+The addition function is written as below.
 
 ```python
 def addition(a, b):
@@ -79,7 +79,7 @@ def addition(a, b):
     return result
 ```
 
-The above part of `# ===Modify codes below=============` describes about the function. 
+The above part of `# ===Modify codes below=============` describes about the function.
 
 `# Input:` part describes the type of value in this function and `# Output:` part describes expected result.  You can reference `# Examples:`, describes the result value displayed in execution. In order to verify it, execute Python shell.
 
@@ -100,14 +100,14 @@ The first `import` command calls the written program. The name of the program, w
 
 `as af` in command is alias. It means  : we will call `arithmetic_function` program, and we will call that  as `af`. The second command call the function `addition` in the  `arithmetic_function` file.
 
-The corresponding function must be already coded in file to receive the values. In this case, `a` and `b` in coded file are 10 and 5 respectively. The returned value of `af.addition(10,5)` function will be saved  in variable `result`, stated on left. 
+The corresponding function must be already coded in file to receive the values. In this case, `a` and `b` in coded file are 10 and 5 respectively. The returned value of `af.addition(10,5)` function will be saved  in variable `result`, stated on left.
 
 The last code means to print variable  `result`. As we did not edit the code yet, Current value is must be `None` because `def addition():` in `arithmetic_function.py`, it returned `None`.
 
 
 
 ## Edit arithmetic_function.py
-The students need to edit the below code. As the object of this function is to sum entered two values. Change `result = None` to `result = a+b`. 
+The students need to edit the below code. As the object of this function is to sum entered two values. Change `result = None` to `result = a+b`.
 
 Please edit `result = None` of other functions in the same way according to their purposes.
 

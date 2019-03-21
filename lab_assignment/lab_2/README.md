@@ -8,9 +8,9 @@ From this week, I will not explain about Lab Assignment in detail. As the class 
 
 ## Assignment file (lab_2.zip) download
 Firstly, download the assignment file. It will not be difficult as we have already practiced how to download. Enter the below address in web browser such as Chrome or Explorer.
-[https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_2/lab_2.zip](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_2/lab_2.zip)
+[https://github.com/TEAMLAB-Lecture/python-mooc-english/blob/master/lab_assignment/lab_2/lab_2.zip](https://github.com/TEAMLAB-Lecture/python-mooc-english/blob/master/lab_assignment/lab_2/lab_2.zip)
 
-Click `View Raw`  or  `Download` button to download. Or if you just click the below download link, it will start download automatically. [Lab 2 - Download](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_2/lab_2.zip)
+Click `View Raw`  or  `Download` button to download. Or if you just click the below download link, it will start download automatically. [Lab 2 - Download](https://github.com/TEAMLAB-Lecture/python-mooc-english/raw/master/lab_assignment/lab_2/lab_2.zip)
 
 Move the `downloaded lab_2.zip` file to work folder and unzip.  Then, start the assignment.
 From now, you have to be accustomed of using vocabulary for work condition.
@@ -18,8 +18,8 @@ From now, you have to be accustomed of using vocabulary for work condition.
 
 Classification           | Description
 --------       | ---
-Console    | In windows, console is the black screen which popping after you enter “cmd" in the run dialog box, and in Ubuntu and Linux, it means the ‘terminal’ and we will learn in depth next week. 
-Python Shell    | Python Shell is a environment which is displayed after entering ‘python’ in Console. We can use various commands of python on it. 
+Console    | In windows, console is the black screen which popping after you enter “cmd" in the run dialog box, and in Ubuntu and Linux, it means the ‘terminal’ and we will learn in depth next week.
+Python Shell    | Python Shell is a environment which is displayed after entering ‘python’ in Console. We can use various commands of python on it.
 Atom editor       | (Atom editor) in this lesson, the python code files will be edited on the base of Atom editor.
 
 ## Types of functions for editing
@@ -28,13 +28,13 @@ Let’s see the extracted `basic_operations.py` assignment file. The code is a l
 Functions           | Description
 --------       | ---
 str_to_int      | A function which changes string values to an integer data type
-str_to_float    | A function which changes string values to a real (float) data type 
-number_to_str   | A function which changes integer or real data values to a string value 
-add_string_number   | A function which integrate a string value and a number value to string value 
-add_string_string   | A function which integrate a string value and a string value to a single string value 
-associative_law_add | A function which returns the result of sum values in number type such as (a + b) + c 
-associative_law_mutiple | A function which returns the result of multiplied values in number type such as (a * b) * c 
-distributive_law    | A function which returns the result value in number type using Distributivity property such as a * (b + c) 
+str_to_float    | A function which changes string values to a real (float) data type
+number_to_str   | A function which changes integer or real data values to a string value
+add_string_number   | A function which integrate a string value and a number value to string value
+add_string_string   | A function which integrate a string value and a string value to a single string value
+associative_law_add | A function which returns the result of sum values in number type such as (a + b) + c
+associative_law_mutiple | A function which returns the result of multiplied values in number type such as (a * b) * c
+distributive_law    | A function which returns the result value in number type using Distributivity property such as a * (b + c)
 exponent    | A function which returns result value of exponent calculation after receiving a base and exponent
 For example, all the functions have same structure as below.
 ```python
@@ -132,7 +132,7 @@ def main():
 Of course, the code will work again if you remove `#`. `#` is a reserved word in python for describing something is comment that isn't for execute. Usually, this is used for adding description of the code by the developer but in case of implementing tests, we can add it on the code to control the test. When you enter `python basic_operations.py` after editing all the codes, you will see 9 times of `====>  True`. If there is `====>  False`, it means that those functions are not edited properly so that you have to check again.
 
 ## Assignment submission
-If you overcome difficult time on the first week, you would complete this assignment easily. However, This is the last time explaining the way to submit the assignment in detail. 
+If you overcome difficult time on the first week, you would complete this assignment easily. However, This is the last time explaining the way to submit the assignment in detail.
 - Press `windows`+`r` and enter cmd and click OK.
 - Change directory to working folder.
 - Enter below code on cmd window.
