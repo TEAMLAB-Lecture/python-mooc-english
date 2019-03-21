@@ -35,13 +35,13 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Data type conversion - [Lecture Video](https://www.youtube.com/watch?v=6zwQaY00G70&index=12&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/3473/week-2-3?c=EFk5T6)
 - Code Assignment: Basic Operations - [Lecture Video](https://www.youtube.com/watch?v=uWDvBHv-icQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_2)
 
-<!-- ### 3주차: 화면 입출력과 리스트 다루기 (Console & List Data Type)
-- Console 다루기 - [Lecture Video](https://www.youtube.com/watch?v=MJvx5m6xlBo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=13), [Lecture Material](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
-- Lab: 화씨 변환기 (Fahrenheit Converter) - [Lecture Video](https://www.youtube.com/watch?v=1izwqD7SSHk&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=14), [Lecture Material](https://doc.co/mjke6x/EFk5T6)
+### 3주차: Console and List Data Type
+- Console  - [Lecture Video](https://www.youtube.com/watch?v=MJvx5m6xlBo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=13), [Lecture Material](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
+- Lab: Fahrenheit Converter - [Lecture Video](https://www.youtube.com/watch?v=1izwqD7SSHk&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=14), [Lecture Material](https://doc.co/mjke6x/EFk5T6)
 - List Data Type - [Lecture Video](https://www.youtube.com/watch?v=lYxlnxKYsLI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=15), [Lecture Material](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
-- Code Assignment: 학점 계산기 (exam_grader) - [Lecture Video](https://www.youtube.com/watch?v=TIrSDV7JZ2E&t=231s&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](http://theteamlab.io/course/1/class/12/)
+- Code Assignment: Exam Grader - [Lecture Video](https://www.youtube.com/watch?v=TIrSDV7JZ2E&t=231s&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_3)
 
-### 4주차: 제어문과 반복문 (Condition & Loop)
+<!-- ### 4주차: 제어문과 반복문 (Condition & Loop)
 - Condition - [Lecture Video](https://www.youtube.com/watch?v=aE7grvgYGc4&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=16), [Lecture Material](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
 - Lab: 당신은 무슨 학교 다니세요? - [Lecture Video](https://www.youtube.com/watch?v=TSXRtujpsg0&index=17&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/ukigBi/EFk5T6)
 - Loop - [Lecture Video](https://www.youtube.com/watch?v=WJVzJx-ake8&index=18&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
@@ -113,4 +113,4 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Lab: JSON Data Analysis - [Lecture Video](https://www.youtube.com/watch?v=BMEF3ypLYuU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=59), [Lecture Material](https://doc.co/zxFwy2/eRCeqh)
 
 ### 15차: What is NEXT?
-- Wrap Up, Pyhton!- [Lecture Video](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [Lecture Material](https://doc.co/UPeD8r/EFk5T6) -->
+- Wrap Up, Pyhton!- [Lecture Video](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [Lecture Material](https://doc.co/UPeD8r/EFk5T6) --> -->

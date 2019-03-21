@@ -66,7 +66,7 @@ Finally, `print_exam_grader(average_score)` is the function which displays final
 get_number_of_subjects function edit
 ------------------------------------
 
-The first function to edit is `get_number_of_subjects()`. 
+The first function to edit is `get_number_of_subjects()`.
 
 ```python
 # receive all numbers of subjects using Console
@@ -116,9 +116,9 @@ If you have written all those two functions, let’s start executing. You can ex
 Start of Exam Grader Program
 ============================
 Enter the number of subjects: 3
-Enter the score of the first subject: 85
-Enter the score of the second subject: 95
-Enter the score of the third subject: 100
+Enter the score of the 1 subject: 85
+Enter the score of the 2 subject: 95
+Enter the score of the 3 subject: 100
 Average:  93.33333333333333
 Grade:  A
 ===========================
