@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
 
-# 총 과목 수를 Console를 통해 받기
+# Get the number of subjects from a console
 def get_number_of_subjects():
 
     # """
     # Input:
     # 	- None
     # Output:
-    # 	- number_of_subjects: Integer Type의 총 과목 수
+    # 	- number_of_subjects:  number of subjects, Integer Type
     # Examples(python shell):
     # 	>>> import exam_grader as eg
     # 	>>> eg.get_number_of_subjects()
-    #   과목수를 입력하세요: 10
+    #   Enter the number of subjects: 10
     #   10
     # """
     #
@@ -22,7 +22,7 @@ def get_number_of_subjects():
     return number_of_subjects
 
 
-# Help Funtion - 수정하지 말 것
+# Help Funtion - Do not modify this one
 def sum_of_scores(number_of_subjects):
 
     total_score = 0
@@ -33,7 +33,7 @@ def sum_of_scores(number_of_subjects):
     return total_score
 
 
-# Help Funtion - 수정하지 말 것
+# Help Funtion - Do not modify this one
 def print_exam_grader(average_score):
     grade = 'F'
     if average_score >= 90.0:
