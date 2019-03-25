@@ -39,8 +39,10 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Code Assignment: Basic Operations - [Lecture Video](https://www.youtube.com/watch?v=uWDvBHv-icQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_2)
 
 ### 3rd Week: Console and List Data Type
+- [PY4E Console](https://youtu.be/kefrGMAglGs) - `You've already taken this lecture on 2nd Week`
 - Console  - [Lecture Video](https://www.youtube.com/watch?v=MJvx5m6xlBo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=13), [Lecture Material](https://docs.com/choi-sungchul/9016/week-3-1-console?c=EFk5T6)
 - Lab: Fahrenheit Converter - [Lecture Video](https://www.youtube.com/watch?v=1izwqD7SSHk&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=14), [Lecture Material](https://doc.co/mjke6x/EFk5T6)
+- [PY4E List](https://www.py4e.com/lessons/lists)
 - List Data Type - [Lecture Video](https://www.youtube.com/watch?v=lYxlnxKYsLI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=15), [Lecture Material](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
 - Code Assignment: Exam Grader - [Lecture Video](https://www.youtube.com/watch?v=TIrSDV7JZ2E&t=231s&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_3)
 
