@@ -10,6 +10,8 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
   - First TA Session, Mar 21, 5:30 pm, ROOM 503 at Engineearing Building  
 
 ## Announcement
+- (0401) - [Lab Assignemnt #4 for GBAT](http://theteamlab.io/lab/notice/37/)
+- (0325) - [Lab Assignemnt #3 for GBAT](http://theteamlab.io/lab/notice/36/)
 - (0319) - [Lab Assignemnt #1 and #2 for GBAT](http://theteamlab.io/lab/notice/32/)
 - (0315) - [Python Syllabus for GBAT students](http://theteamlab.io/lab/notice/31/)
 - (0309) - [Class board](https://line.me/ti/g2/2Blm-7OqnlcDICZgnI8Be0nx5Vc-oZBQMGs1W_b3EktyEn9HE3Gkc5GfItykgcr4)
@@ -46,16 +48,18 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - List Data Type - [Lecture Video](https://www.youtube.com/watch?v=lYxlnxKYsLI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=15), [Lecture Material](https://docs.com/choi-sungchul/6366/week-3-3-list-data-type?c=EFk5T6)
 - Code Assignment: Exam Grader - [Lecture Video](https://www.youtube.com/watch?v=TIrSDV7JZ2E&t=231s&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_3)
 
-<!-- ### 4주차: 제어문과 반복문 (Condition & Loop)
+### 4th Week: Condition & Loop
+- [PY4E Condition](https://www.py4e.com/lessons/logic)
 - Condition - [Lecture Video](https://www.youtube.com/watch?v=aE7grvgYGc4&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=16), [Lecture Material](https://docs.com/choi-sungchul/6141/week-4-1-condition?c=EFk5T6)
-- Lab: 당신은 무슨 학교 다니세요? - [Lecture Video](https://www.youtube.com/watch?v=TSXRtujpsg0&index=17&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/ukigBi/EFk5T6)
+- Lab: What kinds of school do you go to - [Lecture Video](https://www.youtube.com/watch?v=TSXRtujpsg0&index=17&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/ukigBi/EFk5T6)
+- [PY4E Loop](https://www.py4e.com/lessons/loops)
 - Loop - [Lecture Video](https://www.youtube.com/watch?v=WJVzJx-ake8&index=18&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/4484/week-4-3-loop?c=EFk5T6)
-- Lab: 구구단 계산기 - [Lecture Video](https://www.youtube.com/watch?v=MC-QHhxOK9U&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [Lecture Material](https://doc.co/j8LVwB/EFk5T6)
+- Lab: multiplication table - [Lecture Video](https://www.youtube.com/watch?v=MC-QHhxOK9U&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [Lecture Material](https://doc.co/j8LVwB/EFk5T6)
 - Lab: Condition and Loop - [Lecture Video#1](https://www.youtube.com/watch?v=nPWy_nWnYyg&index=20&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Video#2](https://www.youtube.com/watch?v=tuKcI9cu1lo&index=21&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Video#3](https://www.youtube.com/watch?v=78bnSeQ9SKA&index=22&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/TXJguB/EFk5T6)
 - How to debug code - [Lecture Video](https://www.youtube.com/watch?v=LR8XY2HoH28&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
-- Code Assignment: 화씨 변환기 (fahrenheit_converter) - [Lecture Video](https://www.youtube.com/watch?v=5niJ5yiAlSQ&t=201s&index=32&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/READMD.md)
+- Code Assignment: fahrenheit_converter - [Lecture Video](https://www.youtube.com/watch?v=5niJ5yiAlSQ&t=201s&index=32&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/READMD.md)
 
-### 5주차: 함수와 파이썬 코드 작성연습
+<!-- ### 5주차: 함수와 파이썬 코드 작성연습
 - Function Concept I - [Lecture Video](https://www.youtube.com/watch?v=8ftOYKWcul0&index=24&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
 - Function Concept II - [Lecture Video](https://www.youtube.com/watch?v=JwoQRp3QLVQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=25), [Lecture Material](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
 - 코딩 컨벤션과 함수 작성법 - [Lecture Video](https://www.youtube.com/watch?v=K5m-QxQB4og&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=26), [Lecture Material](https://docs.com/choi-sungchul/4133?c=EFk5T6)
@@ -118,4 +122,4 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Lab: JSON Data Analysis - [Lecture Video](https://www.youtube.com/watch?v=BMEF3ypLYuU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=59), [Lecture Material](https://doc.co/zxFwy2/eRCeqh)
 
 ### 15차: What is NEXT?
-- Wrap Up, Pyhton!- [Lecture Video](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [Lecture Material](https://doc.co/UPeD8r/EFk5T6) --> -->
+- Wrap Up, Pyhton!- [Lecture Video](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [Lecture Material](https://doc.co/UPeD8r/EFk5T6) --> --> -->
