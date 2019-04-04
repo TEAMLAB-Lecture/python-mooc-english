@@ -42,9 +42,8 @@ Contents | Composition
 --------       | ---
 Name of function      | input_celsius_value
 input variable (argument) | None
-Process  | prints "Enter Celsius degree to convert: " and it will convert entered values to real numbers. We assume that all the users only enter real number type number. 
-output value(return value)  | celsius value in Float Type
-output value(return value)  | celsius_value in Float Type
+Process  | Receive user’s input with message "Enter Celsius degree to convert: ". This function will convert entered values to real numbers. We assume that all the users only enter real number type number. 
+output value(return value)  | Celsius value in Float Type                                                              
 
 You will wonder whether it works well after writing all functions. There are two ways to verify. The first way is commenting out the `main` function in the existing code as below, and add a test code. Open `fahrenheit_converter.py` file using `atom` and change statement in last `if __name__ == '__main__':` as below.
 
@@ -72,14 +71,14 @@ Enter Celsius degree to convert:10
 10.0
 ```
 
-Now I have explained the way to testing in `python shell` and the significance of `import` statement. Therefore, there will be no more explanation.
+I had explained the way to testing in `python shell` and the significance of `import` statement. Therefore, there will be no more explanation.
 
 ## Write convert_celsius_fahrenheit function
 This is the second function. It is a function which converts entered Celsius degree number in float type to Fahrenheit degree. The contents of the function are the same as below.
 
 Contents            | Composition
 --------       | ---
-Name of function       | Convert_celsius_fahrenheit 
+Name of function       | convert_celsius_fahrenheit 
 input variable (argument)  | Celsius value in float type 
 Process  | Converts celsius to fahrenheit according to the conversion formula. The formula is `((9 / 5) * value of celsius) + 32`. Remember this variable `value of celsius` needs to be changed to a specific variable name. 
 output value(return value)    | Converted value in celsius from fahrenheit, Float Type 
@@ -101,9 +100,9 @@ It is the last function. There is no print value and only the result of input va
 Contnets            | Composition
 --------       | ---
 Name of function      | print_fahrenheit_value
-input variable(argument) | celsius_value in float type, fahrenheit_value in float type
+input variable(argument) | `celsius_value` in float type, `fahrenheit_value` in float type 
 Process     | Display entered celsius value and Fahrenheit value on the screen. Follow with each` celsius degree :`, `Fahrenheit degree :` must be included. 
-output value (return value)  | None. Do not omit the `return variable name` if there is no output value.
+output value (return value)  | None. Do not omit the `return variable_name` if there is no output value. 
 
 Testing in `python shell`, you see the execution as below.
 ```python
