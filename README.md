@@ -59,12 +59,15 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - How to debug code - [Lecture Video](https://www.youtube.com/watch?v=LR8XY2HoH28&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
 - Code Assignment: fahrenheit_converter - [Lecture Video](https://www.youtube.com/watch?v=5niJ5yiAlSQ&t=201s&index=32&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/READMD.md)
 
-<!-- ### 5주차: 함수와 파이썬 코드 작성연습
+### 5th Week: Function and Python Code Practice  
+- [PY4E Functions](https://www.py4e.com/lessons/functions), [note](https://www.py4e.com/html3/04-functions)
 - Function Concept I - [Lecture Video](https://www.youtube.com/watch?v=8ftOYKWcul0&index=24&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
 - Function Concept II - [Lecture Video](https://www.youtube.com/watch?v=JwoQRp3QLVQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=25), [Lecture Material](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
-- 코딩 컨벤션과 함수 작성법 - [Lecture Video](https://www.youtube.com/watch?v=K5m-QxQB4og&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=26), [Lecture Material](https://docs.com/choi-sungchul/4133?c=EFk5T6)
+- Coding convention - [Lecture Video](https://www.youtube.com/watch?v=K5m-QxQB4og&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=26), [Lecture Material](https://docs.com/choi-sungchul/4133?c=EFk5T6)
 - Code Assignment: list, control, loop 연습 (gowithflow) - [Lecture Video](https://www.youtube.com/watch?v=_p4UXbKtYcM&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_5/READMD.md)
 
+
+<!--  
 ### 6주차: 문자열 다루기 (String)
 - 문자열 다루기 (String) - [Lecture Video](https://www.youtube.com/watch?v=6-VUeVlorWU&index=27&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/Y4h7dX/EFk5T6)
 - Lab: Yesterday Letter Counter - [Lecture Video](https://www.youtube.com/watch?v=t2ESp11CRmI&index=28&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/xtswPq/EFk5T6)
