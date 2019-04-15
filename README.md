@@ -58,22 +58,23 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Lab: multiplication table - [Lecture Video](https://www.youtube.com/watch?v=MC-QHhxOK9U&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=19), [Lecture Material](https://doc.co/j8LVwB/EFk5T6)
 - Lab: Condition and Loop - [Lecture Video#1](https://www.youtube.com/watch?v=nPWy_nWnYyg&index=20&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Video#2](https://www.youtube.com/watch?v=tuKcI9cu1lo&index=21&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Video#3](https://www.youtube.com/watch?v=78bnSeQ9SKA&index=22&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/TXJguB/EFk5T6)
 - How to debug code - [Lecture Video](https://www.youtube.com/watch?v=LR8XY2HoH28&index=23&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/3642/week-4-6-how-to-debug-code?c=EFk5T6)
-- Code Assignment: fahrenheit_converter - [Lecture Video](https://www.youtube.com/watch?v=5niJ5yiAlSQ&t=201s&index=32&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_4/READMD.md)
+- Code Assignment: fahrenheit_converter - [Lecture Video](https://www.youtube.com/watch?v=5niJ5yiAlSQ&t=201s&index=32&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_4)
 
 ### 5th Week: Function and Python Code Practice  
 - [PY4E Functions](https://www.py4e.com/lessons/functions), [note](https://www.py4e.com/html3/04-functions)
 - Function Concept I - [Lecture Video](https://www.youtube.com/watch?v=8ftOYKWcul0&index=24&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/6397/week-5-1-function-concept-i?c=EFk5T6)
 - Function Concept II - [Lecture Video](https://www.youtube.com/watch?v=JwoQRp3QLVQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=25), [Lecture Material](https://docs.com/choi-sungchul/8397/week-5-2-function-concept-ii?c=EFk5T6)
 - Coding convention - [Lecture Video](https://www.youtube.com/watch?v=K5m-QxQB4og&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=26), [Lecture Material](https://docs.com/choi-sungchul/4133?c=EFk5T6)
-- Code Assignment: list, control, loop 연습 (gowithflow) - [Lecture Video](https://www.youtube.com/watch?v=_p4UXbKtYcM&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_5/READMD.md)
+- Code Assignment: list, control, loop 연습 (gowithflow) - [Lecture Video](https://www.youtube.com/watch?v=_p4UXbKtYcM&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_5)
 
 
-<!--  
-### 6주차: 문자열 다루기 (String)
-- 문자열 다루기 (String) - [Lecture Video](https://www.youtube.com/watch?v=6-VUeVlorWU&index=27&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/Y4h7dX/EFk5T6)
+### 6th Week: String
+- [PY4E Functions](https://www.py4e.com/lessons/strings)
+- String - [Lecture Video](https://www.youtube.com/watch?v=6-VUeVlorWU&index=27&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/Y4h7dX/EFk5T6)
 - Lab: Yesterday Letter Counter - [Lecture Video](https://www.youtube.com/watch?v=t2ESp11CRmI&index=28&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/xtswPq/EFk5T6)
-- Code Assignment: - [Lecture Video](https://www.youtube.com/watch?v=GNb-zZY67EE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39), [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_6/READMD.md)
+- Code Assignment: - [Lecture Video](https://www.youtube.com/watch?v=GNb-zZY67EE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_6)
 
+<!--
 ### 7주차: 자료 구조 (Data Structure)
 - 자료구조 개요 (Data Structure) - [Lecture Video](https://www.youtube.com/watch?v=G0RamGs1jqQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=29), [Lecture Material](https://doc.co/zfqdQX/EFk5T6)
 - Stack & Queue - [Lecture Video](https://www.youtube.com/watch?v=xs7uMu3bo8w&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=30), [Lecture Material](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
