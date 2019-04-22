@@ -75,15 +75,17 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Lab: Yesterday Letter Counter - [Lecture Video](https://www.youtube.com/watch?v=t2ESp11CRmI&index=28&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/xtswPq/EFk5T6)
 - Code Assignment: - [Lecture Video](https://www.youtube.com/watch?v=GNb-zZY67EE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_6)
 
-<!--
-### 7주차: 자료 구조 (Data Structure)
-- 자료구조 개요 (Data Structure) - [Lecture Video](https://www.youtube.com/watch?v=G0RamGs1jqQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=29), [Lecture Material](https://doc.co/zfqdQX/EFk5T6)
+### 7th Week: Data Structure
+- Data Structure Overview - [Lecture Video](https://www.youtube.com/watch?v=G0RamGs1jqQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=29), [Lecture Material](https://doc.co/zfqdQX/EFk5T6)
 - Stack & Queue - [Lecture Video](https://www.youtube.com/watch?v=xs7uMu3bo8w&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=30), [Lecture Material](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
-- Tuple & Set (Data Structure) - [Lecture Video](https://www.youtube.com/watch?v=7u7rhQ1tQDY&index=31&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
-- 사전 (Dictionary) - [Lecture Video](https://www.youtube.com/watch?v=HqFtXMZSGSI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=32), [Lecture Material](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
+- [PY4E Tuple](https://www.py4e.com/lessons/tuples)
+- Tuple & Set - [Lecture Video](https://www.youtube.com/watch?v=7u7rhQ1tQDY&index=31&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
+- [PY4E Dictionary](https://www.py4e.com/lessons/dictionary)
+- Dictionary - [Lecture Video](https://www.youtube.com/watch?v=HqFtXMZSGSI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=32), [Lecture Material](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
 - Lab: Command Counter - [Lecture Video](https://www.youtube.com/watch?v=gq09kwm5OMc&index=33&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/v5vBq6/EFk5T6)
 - Code Assignment: - [Lecture Video](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_7/READMD.md), [Lecture Material](https://www.youtube.com/watch?v=45CxKN0O6UI&index=45&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
 
+<!--
 ### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
 - Pythonic Code Overview - [Lecture Video](https://www.youtube.com/watch?v=uIcxHkapM7c&index=34&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=4s), [Lecture Material](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
 - Split & Join - [Lecture Video](https://www.youtube.com/watch?v=RnzoIgPmdng&index=35&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=14s), [Lecture Material](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
