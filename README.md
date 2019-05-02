@@ -71,24 +71,27 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 
 ### 6th Week: String
 - [PY4E Functions](https://www.py4e.com/lessons/strings)
-- String - [Lecture Video](https://www.youtube.com/watch?v=6-VUeVlorWU&index=27&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/Y4h7dX/EFk5T6)
-- Lab: Yesterday Letter Counter - [Lecture Video](https://www.youtube.com/watch?v=t2ESp11CRmI&index=28&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/xtswPq/EFk5T6)
-- Code Assignment: - [Lecture Video](https://www.youtube.com/watch?v=GNb-zZY67EE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39), [Lecture Material](https://github.com/TEAMLAB-Lecture/python-mooc-english/tree/master/lab_assignment/lab_6)
+- String - [Lecture Video](https://www.youtube.com/watch?v=6-VUeVlorWU&index=27&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
+- Lab: Yesterday Letter Counter - [Lecture Video](https://www.youtube.com/watch?v=t2ESp11CRmI&index=28&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
+- Code Assignment: - [Lecture Video](https://www.youtube.com/watch?v=GNb-zZY67EE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39)
+
+### 7tw Week: Data Structure
+- Data Structure - [Lecture Video](https://www.youtube.com/watch?v=G0RamGs1jqQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=29)
+- Stack & Queue - [Lecture Video](https://www.youtube.com/watch?v=xs7uMu3bo8w&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=30)
+- Tuple & Set (Data Structure) - [Lecture Video](https://www.youtube.com/watch?v=7u7rhQ1tQDY&index=31&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
+- [PY4E Tuple](https://www.py4e.com/lessons/tuples)
+- Dictionary - [Lecture Video](https://www.youtube.com/watch?v=HqFtXMZSGSI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=32)
+- [PY4E Dictionary](https://www.py4e.com/lessons/dictionary)
+- Lab: Command Counter - [Lecture Video](https://www.youtube.com/watch?v=gq09kwm5OMc&index=33&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz),
+
+
+### 8th Week: Pythonic Code
+- Pythonic Code Overview - [Lecture Video](https://www.youtube.com/watch?v=uIcxHkapM7c&index=34&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=4s)
+- Split & Join - [Lecture Video](https://www.youtube.com/watch?v=RnzoIgPmdng&index=35&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=14s)
+- List Comprehension - [Lecture Video](https://www.youtube.com/watch?v=AWAISEXNPPI&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=73s)
+- Enumerate & Zip - [Lecture Video](https://www.youtube.com/watch?v=xXaMXh1k5FY&index=37&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=610s)
 
 <!--
-### 7주차: 자료 구조 (Data Structure)
-- 자료구조 개요 (Data Structure) - [Lecture Video](https://www.youtube.com/watch?v=G0RamGs1jqQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=29), [Lecture Material](https://doc.co/zfqdQX/EFk5T6)
-- Stack & Queue - [Lecture Video](https://www.youtube.com/watch?v=xs7uMu3bo8w&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=30), [Lecture Material](https://docs.com/choi-sungchul/1667/week-7-2-stack-queue?c=EFk5T6)
-- Tuple & Set (Data Structure) - [Lecture Video](https://www.youtube.com/watch?v=7u7rhQ1tQDY&index=31&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://docs.com/choi-sungchul/8314/week-7-3-tuple-set?c=EFk5T6)
-- 사전 (Dictionary) - [Lecture Video](https://www.youtube.com/watch?v=HqFtXMZSGSI&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=32), [Lecture Material](https://docs.com/choi-sungchul/6063/week-7-4-data-structure?c=EFk5T6)
-- Lab: Command Counter - [Lecture Video](https://www.youtube.com/watch?v=gq09kwm5OMc&index=33&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/v5vBq6/EFk5T6)
-- Code Assignment: - [Lecture Video](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_7/READMD.md), [Lecture Material](https://www.youtube.com/watch?v=45CxKN0O6UI&index=45&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz)
-
-### 8주차: 파이썬같은 코드 작성하기 (Pythonic Code)
-- Pythonic Code Overview - [Lecture Video](https://www.youtube.com/watch?v=uIcxHkapM7c&index=34&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=4s), [Lecture Material](https://docs.com/choi-sungchul/8538/week-8-1-pythonic-code-overview?c=EFk5T6)
-- Split & Join - [Lecture Video](https://www.youtube.com/watch?v=RnzoIgPmdng&index=35&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=14s), [Lecture Material](https://docs.com/choi-sungchul/7379/week-8-2-split-join?c=EFk5T6)
-- List Comprehension - [Lecture Video](https://www.youtube.com/watch?v=AWAISEXNPPI&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=73s), [Lecture Material](https://docs.com/choi-sungchul/7934/week-8-3-list-comprehension?c=EFk5T6)
-- Enumerate & Zip - [Lecture Video](https://www.youtube.com/watch?v=xXaMXh1k5FY&index=37&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=610s), [Lecture Material](https://docs.com/choi-sungchul/5388/week-8-4-enumerate-zip?c=EFk5T6)
 - Code Assignment: - Morse Code (morsecode) [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_8/READMD.md)
 
 ### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
