@@ -88,8 +88,14 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 ### 8th Week: Pythonic Code
 - Pythonic Code Overview - [Lecture Video](https://www.youtube.com/watch?v=uIcxHkapM7c&index=34&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=4s)
 - Split & Join - [Lecture Video](https://www.youtube.com/watch?v=RnzoIgPmdng&index=35&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=14s)
+- Supplements: [Split and Join](https://www.youtube.com/watch?v=U2xhtrJx8aM)
 - List Comprehension - [Lecture Video](https://www.youtube.com/watch?v=AWAISEXNPPI&index=36&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=73s)
+- Supplements: [Real Python - List Comprehension](https://www.youtube.com/watch?v=1HlyKKiGg-4)
 - Enumerate & Zip - [Lecture Video](https://www.youtube.com/watch?v=xXaMXh1k5FY&index=37&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=610s)
+- Supplements: [Real Python - Enumberate](https://www.youtube.com/watch?v=bOGmYvtw-kk)
+- Supplements: [Real Python - Zip](https://www.youtube.com/watch?v=bMxEU0iG-KA)
+
+
 
 <!--
 - Code Assignment: - Morse Code (morsecode) [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_8/READMD.md)
