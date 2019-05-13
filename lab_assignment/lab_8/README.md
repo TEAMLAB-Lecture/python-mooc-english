@@ -2,7 +2,7 @@
 Copyright 2019 © document created by TeamLab.Gachon@gmail.com
 
 ## Introduction
-In this Lab you are going to develop a program for translating Morse Code using data of Dict Type which is the most applicable data structure provided by Python. As we know already, Morse Code is a signal which sends messages using light or sound<sup id="MorseCodeWiki">[1](#f1)</sup>.
+In this Lab you are going to develop a program for translating Morse Code using Dict date type which is the most applicable data structure provided by Python. As we know already, Morse Code is a signal which sends messages using light or sound<sup id="MorseCodeWiki">[1](#f1)</sup>.
 The real Morse Code has its specific rules and the general rules are the following.
 ![Rules of Morse Code](http://1.bp.blogspot.com/-rk4DfdE6428/T17CmLVk9CI/AAAAAAAAARk/5xZlW_wMnLw/s1600/morse-code-letters.jpg)
 
@@ -34,12 +34,12 @@ I believe that it is not too hard as we already have experienced various coding 
 ## Assignment template file download
 First of all, you need to download assignment template file. Enter the below address on the address bar of Chrome or Explorer.
 
-https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_8/lab_8.zip
+https://github.com/TEAMLAB-Lecture/python-mooc-english/blob/master/lab_assignment/lab_8/lab_8.zip
 
-Click View Raw or Download button for downloading. Or click [Lab 8 – Download Link](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_8/lab_8.zip) and it will start download automatically. Move the downloaded lab_8.zip file to work folder and start the assignment after unzip the file.
+Click View Raw or Download button for downloading. Or click [Lab 8 – Download Link](<https://github.com/TEAMLAB-Lecture/python-mooc-english/raw/master/lab_assignment/lab_8/lab_8.zip>) and it will start download automatically. Move the downloaded lab_8.zip file to work folder and start the assignment after unzip the file.
 
-## Required function of python before start editing : `join`
-There is a helpful function of python needs to be learned before starting this lab. It is called join function which is used for converting values on the list to a value in string type. You can use this function as below.
+## Helpful function : `join`
+There is a helpful python function needs to be learned before starting this lab. It is called `join` function which is used for converting values on the list to a value in string type. You can use this function as below.
 
 ```python
 >>> test_list = ["a","b","c","d","e"]
@@ -50,12 +50,12 @@ There is a helpful function of python needs to be learned before starting this l
 >>> " ".join(test_list)
 'a b c d e'
 ```
-As you can see in the above code, the `join` function consists of  `"connecting signs".join(list variables for connection)`. Connected list values according to sign conversion also are printed after conversion. The `join` function also can be used with converted Morse Codes.
+As you can see in the above code, the `join` function consists of  `"connecting letter".join(list variable)`. Connected string value varies according to connecting letter. The `join` function is useful for connect Morse Codes.
 
-## baseball_game.py file overview
-Let’s see the outline by opening `morsecode.py` using `atom`. You can see various functions and `main` function when you opening the file using `atom morsecode.py` command. Each function must be written and submitted by yourself and `main` function is the function which actually executing the Morse Code. Firstly, let’s see the two Helper functions provided by the Lab.
+## morsecode.py file overview
+Let’s see the outline by opening `morsecode.py` using `atom`. You can see various functions and `main` function when you opening the file using `atom morsecode.py` command. Each function must be written and submitted by yourself. `main` function is the function which actually executing the Morse Code. Firstly, let’s see the two Helper functions provided by the Lab.
 
-The first Helper function is `get_morse_code_dict` function. When a user calls this function, it returns data of dict type which makes you call Morse Code. The function is the same as the following.
+The first helper function is `get_morse_code_dict()` function. When a user calls this function, it returns data of dict type which makes you call Morse Code. The function is the same as the following.
 
 ```python
 def get_morse_code_dict():
@@ -78,7 +78,7 @@ The above function can be used as below.
 `.-`
 ```
 
-The second Helper function is the `get_help_message` function. When a user calls this function, it prints the description of Morse Codes as below. This will be used in the `main` function, so don’t worry too much.
+The second helper function is the `get_help_message()` function. When a user calls this function, it prints the description of Morse Codes as below. This will be used in the `main` function, so don’t worry too much.
 
 ```python
 >>> morsecode.get_help_message()
@@ -89,28 +89,30 @@ tY: -.--\t\nZ: --..\t'
 >>>
 ```
 
-Among the above result values, `\t` is a special symbol for making tab spacing. You can see in the Console window that there are 8 spaces between letters when you execute the symbol.
+Among the above result values, `\t` is a special symbol for making tab spacing. You can see there are 8 spaces between letters when you run the code in Console.
 
 Now, let’s see the list of functions for editing.
 
 Function            | Description
 --------       | ---
 is_help_command | Receives a string value and returns True if the entered values are "H" or "HELP" no matter whether it is a capital letter or not and returns False if not.
-is_validated_english_sentence | Receives a string value and returns True if the entered value can be converted to a Morse Code and returns False if not. It cannot be converted to a Morse Code under following three conditions. If 1) there is a number, 2) it includes a special character such as _@#$%^&*()-+=[]{}"';:\|`~, 3) there is no input besides punctuation marks(.,!?) or is a blank.   
-is_validated_morse_code | Receives a string value in Morse Code Type and returns True if it can be converted to an alphabet and returns False if not. It cannot be converted to an alphabet under following two conditions. If 1) there is another character besides "-","."," " 2) an another code has been entered besides Morse Code which is defined on get_morse_code_dict  function ex) )......
-get_cleaned_english_sentence |  Receives a English sentence in a string type value which can be converted to a Morse Code and returns the string value after removing blank spaces of both sides and four punctuation marks such as ".,!?".
-decoding_character | Receives a value in a string type which can be replaced by an alphabet using get_morse_code_dict function and returns the value converted from Morse Code to an alphabet.  
-encoding_character | Receives an alphabet in a string type and returns converted Morse Codes in string type using returned value of get_morse_code_dict function.
+is_validated_english_sentence | Receives a string value. Returns True if entered value can be converted to a Morse Code. Returns False if not. It cannot be converted to a Morse Code under following three conditions. If 1) there is a number, 2) it includes a special character such as `_@#$%^&*()-+=[]{}"';:\|`~`, 3) there is no input besides punctuation marks(.,!?) or input is blank. 
+is_validated_morse_code | Receives a string value in Morse Code Type and returns True if it can be converted to an alphabet. Returns False if not. It cannot be converted to an alphabet under following two conditions.  1) If there is another character besides `"-","."," "` 2) If an another code has been entered besides defined Morse Code in `get_morse_code_dict()`  function ex) `......` 
+get_cleaned_english_sentence | Receives a English sentence in a string type value which can be converted to a Morse Code. Returns the string value after removing blank spaces of both sides and four punctuation marks such as `".,!?"`. 
+decoding_character | Receives a value in a string type which can be replaced by an alphabet using `get_morse_code_dict()` function. Returns the value converted to alphabet. 
+encoding_character | Receives 'an' alphabet in a string type. Returns converted Morse Codes in string type using returned value of `get_morse_code_dict()` function. 
 decoding_sentence |  Receives values of Morse Code in string type and returns a string which converted Morse Code to alphabets.
+encoding_sentence | Receives an English sentence in string type which can be converted to a Morse Code. It converts English sentence into a Morse Code. it must be removed the spaces at the beginning and end of the sentence. The importance is that all Morse Codes require a space among an alphabet, two spaces is required between words in a sentence. 
 
 
-
-encoding_sentence | Receives an English sentence in string type which can be converted to a Morse Code. It converts and returns a string of English sentence into a Morse Code and removes the spaces at the beginning and end of the sentence. The importance is that all Morse Codes require a space among them and two spaces between words in a sentence.
-The last `encoding_sentence` function is a little complicating but consider it as below. Remove punctuation marks such as `!` and print Morse Code giving a one blank space between letters and two spaces between words.
+The last `encoding_sentence()` function is a little complicate. But consider it as below. Remove punctuation marks such as `!` and print Morse Code giving a one blank space between letters and two spaces between words.
 
 ![Sample of printing Morse Code](https://raw.githubusercontent.com/TeamLab/lab_for_gachon_cs50/master/lab_10_morsecode/morsecode_example.png)
 
+Note. 한칸 == 'a space' , 두칸 == 'two space'
+
 ## Edit the main function
+
 This time, we are going to work with main function. However, the main function in this Lab is not that complicate. The following is the basic Template.
 
 ```python
@@ -129,7 +131,7 @@ def main():
 The `main` function complies with the following rules.
 
 1. It ends when a user enters 0.
-2. When a user enters "h" or "help" no matter whether it is a capital letter or not, it calls `get_help_message` function and prints as below.
+2. When a user enters "h" or "help" no matter whether it is a capital letter or not, it calls `get_help_message()` function and prints as below.
 
 ```python
 Input your message(H - Help, 0 - Exit): H
@@ -141,7 +143,7 @@ P: .--. Q: --.- R: .-.  S: ...  T: -
 U: ..-  V: ...- W: .--  X: -..- Y: -.--
 Z: --..
 ```
-3. If an alphabet sentence is entered which can be converted to Morse Code, it prints the values converted to Morse Code.
+3. when an alphabet sentence, which can be converted to Morse Code, is entered, it prints converted Morse Code.
 
 ```python
 Input your message(H - Help, 0 - Exit): SOS
@@ -165,7 +167,7 @@ HOT
 Input your message(H - Help, 0 - Exit): . -..- .. -..
 EXID
 ```
-5. And prints errors if a user enters something that cannot be converted.
+5. And prints errors if user enters something that cannot be converted.
 ```python
 Input your message(H - Help, 0 - Exit): I'm Gachon.
 Wrong Input
@@ -175,9 +177,7 @@ Input your message(H - Help, 0 - Exit): Hello 123!
 Wrong Input
 ```
 
-> ONE ANNOUNCEMENT. As there are many people who cannot pass the encoding_sentence in Lab#8 morsecode!
-
-In encoding_sentence function, if there are two spaces or more between English words, you must change it to one single space before converting to a Morse Code.  
+> ONE ANNOUNCEMENT. As there are many people who cannot pass the encoding_sentence in Lab#8 morsecode!, In `encoding_sentence function()`, if there are two spaces or more between English words, you must change it to one single space before converting to a Morse Code.  
 
 You can see the sample screen of actual running program as below.
 
@@ -214,7 +214,7 @@ get_cleaned_english_sentence |       PASS |             Good Job
                 main |       PASS |             Good Job
    encoding_sentence |       PASS |             Good Job
 -------------------- | ---------- | --------------------
-```  
+```
 
 ## Next Work
 After programming quite a few programs, you will start thinking that this kind of Lab is not that difficult. The level of Lab is gradually getting easier for you. So, I recommend that you start working step-by-step. Next time, we are going to learn about file handling. From now on, you will be able to solve more complicate problems.  
