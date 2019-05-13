@@ -96,16 +96,14 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Supplements: [Real Python - Zip](https://www.youtube.com/watch?v=bMxEU0iG-KA)
 
 
-
-<!--
-- Code Assignment: - Morse Code (morsecode) [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_8/READMD.md)
-
-### 9주차: 객체 지향 프로그래밍 (Objective-Oriented Programming)
+### 9th week: Objective-Oriented Programming
+- [PY4E OOP](https://www.py4e.com/lessons/Objects)
 - Objective-Oriented Programming Overview - [Lecture Video](https://www.youtube.com/watch?v=fi8TGRfDXU0&t=2s&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=49), [Lecture Material](https://doc.co/yXcRGm/EFk5T6)
 - Objects in Python - [Lecture Video](https://www.youtube.com/watch?v=cXNV45sx_iY&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=39), [Lecture Material](https://doc.co/U1782r/EFk5T6)
 - Lab: Note and Notebook - [Lecture Video](https://www.youtube.com/watch?v=8Q9N8E0RpDg&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=52), [Lecture Material](https://doc.co/woa22W/EFk5T6)
 - OOP characteristics - [Lecture Video](https://www.youtube.com/watch?v=s2NOU8vMMDU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=53), [Lecture Material](https://doc.co/bFqNQT/EFk5T6)
 
+<!--
 ### 10주차: 모듈과 패키지 (Module & Packages)
 - Overview - [Lecture Video](https://www.youtube.com/watch?v=iV_1dal69Xc&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=50), [Lecture Material](https://doc.co/uJ7H6L/EFk5T6)
 - Modules - [Lecture Video](https://www.youtube.com/watch?v=vJ3kEhB_ERE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [Lecture Material](https://doc.co/qNxUN1/EFk5T6)
