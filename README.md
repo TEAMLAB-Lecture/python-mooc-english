@@ -103,24 +103,26 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Lab: Note and Notebook - [Lecture Video](https://www.youtube.com/watch?v=8Q9N8E0RpDg&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=52), [Lecture Material](https://doc.co/woa22W/EFk5T6)
 - OOP characteristics - [Lecture Video](https://www.youtube.com/watch?v=s2NOU8vMMDU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=53), [Lecture Material](https://doc.co/bFqNQT/EFk5T6)
 
-<!--
-### 10주차: 모듈과 패키지 (Module & Packages)
+### 10th week: Module & Packages
 - Overview - [Lecture Video](https://www.youtube.com/watch?v=iV_1dal69Xc&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=50), [Lecture Material](https://doc.co/uJ7H6L/EFk5T6)
 - Modules - [Lecture Video](https://www.youtube.com/watch?v=vJ3kEhB_ERE&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [Lecture Material](https://doc.co/qNxUN1/EFk5T6)
 - Packages - [Lecture Video](https://www.youtube.com/watch?v=nWAomgvxihg&index=42&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz), [Lecture Material](https://doc.co/hXxeLm/EFk5T6)
-- 가상환경과 Package 활용하기 - [Lecture Video](https://www.youtube.com/watch?v=QLF5UvUvKCo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [Lecture Material](https://doc.co/SoCj3W/EFk5T6)
+- Virtual Enviroment and Packages - [Lecture Video](https://www.youtube.com/watch?v=QLF5UvUvKCo&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=51), [Lecture Material](https://doc.co/SoCj3W/EFk5T6)
 
-### 11주차: 예외 처리 (Exception Handling)
+### 11th week: Exception Handling)
+- Exception Tutorial - [video](https://www.youtube.com/watch?v=NIWwJbo-9_8)
 - Overview - [Lecture Video](https://www.youtube.com/watch?v=Q17PEpSyv_s&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=24s&index=47), [Lecture Material](https://doc.co/hyRaci/EFk5T6)
 - Exception Handling - [Lecture Video](https://www.youtube.com/watch?v=dTj3FxYt7ic&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=83s&index=48), [Lecture Material](https://doc.co/oyGK7M/EFk5T6)
 
-### 12주차: 파일 다루기와 CSV (File Handling and Comma Separate Values)
+### 12th week: File Handling and Comma Separate Values
+- Python File PY4E - [video](https://www.py4e.com/lessons/files)
+- [video for CSV](https://realpython.com/lessons/reading-csvs-pythons-csv-module/)
 - File Handling Overview - [Lecture Video](https://www.youtube.com/watch?v=0qV-5-X7YS0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=15s&index=49), [Lecture Material](https://doc.co/5XWkVi/EFk5T6)
 - File Handling - [Lecture Video](https://www.youtube.com/watch?v=kJnew-Dl8K0&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=228s&index=50), [Lecture Material](https://doc.co/hYt3mx/EFk5T6)
 - Comma Separate Values  - [Lecture Video](https://www.youtube.com/watch?v=2c8FzbCPu3Y&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=58s&index=51), [Lecture Material](https://doc.co/1PDdBj/EFk5T6)
 - Code Assignment: - [Lecture Material](https://github.com/TeamLab/Gachon_CS50_Python_KMOOC/blob/master/lab_assignment/lab_9/READMD.md)
 
-### 13주차: Web Scraping
+<!-- ### 13th week: Web Scraping
 - Web 이해하기 - [Lecture Video](https://www.youtube.com/watch?v=l-2wn6jrezc&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=52), [Lecture Material](https://doc.co/WuDBwm/EFk5T6)
 - HTML 데이터 다루기 - [Lecture Video](https://www.youtube.com/watch?v=B0kmDCSJqZU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=15s&index=53), [Lecture Material](https://doc.co/5a8MVr/EFk5T6)
 - 정규 표현식: Regular Expression - [Lecture Video](https://www.youtube.com/watch?v=Qg8ayprxoFQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=54), [Lecture Material](https://doc.co/5DcmMo/EFk5T6)
@@ -135,4 +137,4 @@ The world is changing rapidly. Actually, it is changing faster and stronger than
 - Lab: JSON Data Analysis - [Lecture Video](https://www.youtube.com/watch?v=BMEF3ypLYuU&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&index=59), [Lecture Material](https://doc.co/zxFwy2/eRCeqh)
 
 ### 15차: What is NEXT?
-- Wrap Up, Pyhton!- [Lecture Video](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [Lecture Material](https://doc.co/UPeD8r/EFk5T6) --> --> -->
+- Wrap Up, Pyhton!- [Lecture Video](https://www.youtube.com/watch?v=iejWpaxl-xQ&list=PLBHVuYlKEkUJvRVv9_je9j3BpHwGHSZHz&t=188s&index=60), [Lecture Material](https://doc.co/UPeD8r/EFk5T6) --> --> --> -->
